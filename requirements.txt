@@ -1,0 +1,33 @@
+# ============================================================
+# requirements.txt — متطلبات نظام إدارة الصيدلية
+# تثبيت: pip install -r requirements.txt
+# ============================================================
+
+# واجهة المستخدم
+customtkinter>=5.2.0
+Pillow>=10.0.0
+
+# قاعدة البيانات (مدمجة مع Python — لا حاجة لتثبيتها)
+# sqlite3  ← built-in
+
+# PDF وطباعة الفواتير
+fpdf2>=2.7.6
+reportlab>=4.0.7
+
+# دعم اللغة العربية في PDF
+arabic-reshaper>=3.0.0
+python-bidi>=0.4.2
+
+# Excel
+openpyxl>=3.1.2
+
+# باركود (اختياري — لو أُضيف مستقبلاً)
+# python-barcode>=0.15.1
+# qrcode>=7.4.2
+
+# MySQL / MariaDB support (اختياري — مطلوب فقط مع MySQL)
+mysql-connector-python>=8.0.0
+
+# Security
+bcrypt>=4.0.0            # password hashing (secure)
+cryptography>=41.0.0     # config encryption (Fernet)
