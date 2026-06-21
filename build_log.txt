@@ -1,0 +1,150 @@
+
+===========================================
+  Pharmacy Management System - Build
+===========================================
+
+[OK] Python 3.14.3
+[OK] Python version OK
+[OK] venv exists.
+[OK] venv activated.
+[INFO] Upgrading pip...
+[OK] pip upgraded.
+[INFO] Installing requirements...
+[OK] Requirements installed.
+[INFO] Installing PyInstaller...
+[OK] PyInstaller ready.
+[WARN] assets\icon.ico not found - building without icon.
+[INFO] Cleaning old build...
+[OK] Cleaned.
+
+[INFO] Building... (this takes 5-10 minutes)
+
+330 INFO: PyInstaller: 6.21.0, contrib hooks: 2026.6
+331 INFO: Python: 3.14.3
+391 INFO: Platform: Windows-11-10.0.26200-SP0
+391 INFO: Python environment: E:\pharmacy_v4\venv
+397 INFO: Removing temporary files and cleaning cache in C:\Users\Mega Store\AppData\Local\pyinstaller
+404 INFO: Module search paths (PYTHONPATH):
+['E:\\pharmacy_v4',
+ 'C:\\Users\\Mega '
+ 'Store\\AppData\\Local\\Programs\\Python\\Python314\\python314.zip',
+ 'C:\\Users\\Mega Store\\AppData\\Local\\Programs\\Python\\Python314\\DLLs',
+ 'C:\\Users\\Mega Store\\AppData\\Local\\Programs\\Python\\Python314\\Lib',
+ 'C:\\Users\\Mega Store\\AppData\\Local\\Programs\\Python\\Python314',
+ 'E:\\pharmacy_v4\\venv',
+ 'E:\\pharmacy_v4\\venv\\Lib\\site-packages',
+ 'E:\\pharmacy_v4']
+1112 INFO: Appending 'datas' from .spec
+1116 INFO: checking Analysis
+1116 INFO: Building Analysis because Analysis-00.toc is non existent
+1116 INFO: Looking for Python shared library...
+1116 INFO: Using Python shared library: C:\Users\Mega Store\AppData\Local\Programs\Python\Python314\python314.dll
+1116 INFO: Running Analysis Analysis-00.toc
+1117 INFO: Target bytecode optimization level: 0
+1117 INFO: Initializing module dependency graph...
+1118 INFO: Initializing module graph hook caches...
+1148 INFO: Analyzing modules for base_library.zip ...
+5441 INFO: Processing standard module hook 'hook-encodings.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6414 INFO: Processing standard module hook 'hook-math.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+10731 INFO: Processing standard module hook 'hook-difflib.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+10766 INFO: Processing standard module hook 'hook-heapq.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+11090 INFO: Processing standard module hook 'hook-pickle.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15616 INFO: Caching module dependency graph...
+15694 INFO: Analyzing E:\pharmacy_v4\main.py
+15811 INFO: Processing standard module hook 'hook-customtkinter.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+15812 WARNING: collect_data_files - skipping data collection for module 'customtkinter' as it is not a package.
+15812 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+15813 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+16734 INFO: Processing standard module hook 'hook-_tkinter.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+16970 INFO: Processing standard module hook 'hook-sqlite3.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+17720 INFO: Processing standard module hook 'hook-cryptography.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+20128 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+20660 INFO: Processing standard module hook 'hook-platform.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+20848 INFO: Processing standard module hook 'hook-sysconfig.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+20860 INFO: Processing standard module hook 'hook-_ctypes.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+22864 INFO: Processing standard module hook 'hook-bcrypt.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+23030 INFO: Analyzing hidden import 'tkinter.colorchooser'
+23035 INFO: Analyzing hidden import 'screens.dashboard'
+23068 INFO: Analyzing hidden import 'screens.pos'
+23585 INFO: Processing standard module hook 'hook-PIL.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+23981 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+24738 INFO: Processing standard module hook 'hook-xml.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+24744 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+25018 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+26674 INFO: Processing standard module hook 'hook-webbrowser.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+27340 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+29604 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+39843 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+39844 INFO: SetuptoolsInfo: initializing cached setuptools info...
+47199 INFO: Analyzing hidden import 'screens.cashier'
+47259 INFO: Analyzing hidden import 'screens.medicines'
+47311 INFO: Analyzing hidden import 'screens.sales'
+47354 INFO: Analyzing hidden import 'screens.purchases'
+47439 INFO: Analyzing hidden import 'screens.inventory'
+47488 INFO: Analyzing hidden import 'screens.customers'
+47521 INFO: Analyzing hidden import 'screens.suppliers'
+47548 INFO: Analyzing hidden import 'screens.returns'
+47630 INFO: Analyzing hidden import 'screens.treasury'
+47710 INFO: Analyzing hidden import 'screens.reports'
+47774 INFO: Processing standard module hook 'hook-openpyxl.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+50517 INFO: Analyzing hidden import 'screens.users'
+50602 INFO: Analyzing hidden import 'screens.audit_logs'
+50633 INFO: Analyzing hidden import 'screens.settings'
+50678 INFO: Analyzing hidden import 'screens.theme_designer'
+50757 INFO: Analyzing hidden import 'PIL.ImageTk'
+50778 INFO: Processing module hooks (post-graph stage)...
+51678 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+51844 INFO: Processing standard module hook 'hook-_tkinter.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+51876 INFO: Performing binary vs. data reclassification (985 entries)
+52143 INFO: Looking for ctypes DLLs
+52194 INFO: Analyzing run-time hooks ...
+52194 INFO: Including custom run-time hook 'E:\\pharmacy_v4\\hooks\\pyi_rth_pharmacy.py'
+52207 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52215 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+52217 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52223 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52229 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'E:\\pharmacy_v4\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52321 INFO: Creating base_library.zip...
+52372 INFO: Looking for dynamic libraries
+53979 INFO: Extra DLL search directories (AddDllDirectory): []
+53980 INFO: Extra DLL search directories (PATH): []
+55268 INFO: Warnings written to E:\pharmacy_v4\build\pharmacy\warn-pharmacy.txt
+55452 INFO: Graph cross-reference written to E:\pharmacy_v4\build\pharmacy\xref-pharmacy.html
+55591 INFO: checking PYZ
+55591 INFO: Building PYZ because PYZ-00.toc is non existent
+55592 INFO: Building PYZ (ZlibArchive) E:\pharmacy_v4\build\pharmacy\PYZ-00.pyz
+56613 INFO: Building PYZ (ZlibArchive) E:\pharmacy_v4\build\pharmacy\PYZ-00.pyz completed successfully.
+56662 INFO: checking PKG
+56662 INFO: Building PKG because PKG-00.toc is non existent
+56663 INFO: Building PKG (CArchive) pharmacy.pkg
+56720 INFO: Building PKG (CArchive) pharmacy.pkg completed successfully.
+56723 INFO: Bootloader E:\pharmacy_v4\venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+56723 INFO: checking EXE
+56724 INFO: Building EXE because EXE-00.toc is non existent
+56724 INFO: Building EXE from EXE-00.toc
+56724 INFO: Copying bootloader EXE to E:\pharmacy_v4\build\pharmacy\pharmacy.exe
+56753 INFO: Copying icon to EXE
+56773 INFO: Copying 0 resources to EXE
+56773 INFO: Embedding manifest in EXE
+56793 INFO: Appending PKG archive to EXE
+56981 INFO: Fixing EXE headers
+57510 INFO: Building EXE from EXE-00.toc completed successfully.
+57531 INFO: checking COLLECT
+57531 INFO: Building COLLECT because COLLECT-00.toc is non existent
+57532 INFO: Building COLLECT COLLECT-00.toc
+61911 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+61967 INFO: Build complete! The results are available in: E:\pharmacy_v4\dist
+
+===========================================
+[OK] Build complete
+
+EXE: dist\pharmacy\pharmacy.exe
+
+Next step - create installer:
+  Open Inno Setup Compiler
+  File > Open > installer.iss
+  Press F9 to build
+  Output: output\pharmacy_setup_v1.0.0.exe
+===========================================
+
+Press any key to continue . . . 

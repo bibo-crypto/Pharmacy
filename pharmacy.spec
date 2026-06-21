@@ -7,7 +7,14 @@ import os, sys
 block_cipher = None
 BASE = os.path.dirname(os.path.abspath(SPEC))
 
-icon_path = os.path.join(BASE, 'assets', 'icon.ico')
+icon_path_assets = os.path.join(BASE, 'assets', 'icon.ico')
+icon_path_root = os.path.join(BASE, 'icon.ico')
+if os.path.exists(icon_path_assets):
+    icon_path = icon_path_assets
+elif os.path.exists(icon_path_root):
+    icon_path = icon_path_root
+else:
+    icon_path = None
 
 hidden_imports = [
     # tkinter
@@ -93,7 +100,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=icon_path if os.path.exists(icon_path) else None,
+    icon=icon_path,
 )
 
 coll = COLLECT(

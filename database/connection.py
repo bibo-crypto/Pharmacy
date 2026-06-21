@@ -24,7 +24,16 @@ def _default_sqlite_path() -> Path:
     data_dir = os.environ.get("PHARMACY_DATA_DIR")
     if data_dir:
         return Path(data_dir) / "pharmacy.db"
-    return Path(__file__).parent.parent / "pharmacy.db"
+
+    # عند التشغيل من ملف EXE مُجمَّع بـ PyInstaller، __file__ يشاور على
+    # مجلد _MEIPASS المؤقت (غير قابل للكتابة) لا على مكان الـEXE الحقيقي.
+    # لازم نخزن قاعدة البيانات بجانب الـEXE، لا جوه الحزمة المؤقتة.
+    if getattr(sys, "frozen", False):
+        app_dir = Path(sys.executable).parent
+    else:
+        app_dir = Path(__file__).parent.parent
+
+    return app_dir / "pharmacy.db"
 
 
 def _get_db_type() -> str:

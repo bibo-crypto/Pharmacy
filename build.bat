@@ -73,8 +73,6 @@ REM --- Check icon ---
 set USE_SPEC=pharmacy.spec
 if not exist "assets\icon.ico" (
     echo [WARN] assets\icon.ico not found - building without icon.
-    python -c "c=open('pharmacy.spec',encoding='utf-8').read();c=c.replace(\"icon=os.path.join(BASE,'assets','icon.ico') if os.path.exists(os.path.join(BASE,'assets','icon.ico')) else None,\",'');open('_build_noicon.spec','w',encoding='utf-8').write(c)"
-    set USE_SPEC=_build_noicon.spec
 ) else (
     echo [OK] Icon found.
 )

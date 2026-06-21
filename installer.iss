@@ -28,7 +28,7 @@ PrivilegesRequired=lowest
 MinVersion=10.0.17763
 UninstallDisplayName={#AppName}
 UninstallDisplayIcon={app}\{#AppExeName}
-SetupIconFile=assets\icon.ico
+SetupIconFile=icon.ico
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
