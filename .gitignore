@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+output/
+installer_output/
+*.exe
+*.spec.bak
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Database files (تُنشأ تلقائياً عند أول تشغيل)
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets / credentials — لا يجب أبداً رفع بيانات اعتماد حقيقية
+credentials.txt
+db_config.json
+*.env
+.env.*
+
+# بيانات تشغيلية حقيقية (فواتير عملاء، سجلات) — لا ترفع على ريبو عام
+receipts/
+
+# Logs
+*_log.txt
+build_log.txt
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
