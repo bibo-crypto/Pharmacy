@@ -516,14 +516,16 @@ class UserFormDialog(tk.Toplevel):
             "role_id":   role_id,
             "is_active": int(self.active_var.get()),
         }
-        from utils.auth import hash_password
         pw = self.vars["password"].get().strip()
         if pw:
-            data["password"] = hash_password(pw)
+            # لا نشفّر الباسورد هنا — add_user/update_user في models/user.py
+            # هما المسؤولان الوحيدان عن التشفير، لتجنب تشفير الباسورد مرتين
+            # (وهو ما كان يسبب فشل تسجيل الدخول بعد إضافة مستخدم جديد).
+            data["password"] = pw
         if self.data:
             update_user(self.data["id"], data)
         else:
-            data.setdefault("password", hash_password("123456"))
+            data.setdefault("password", "123456")
             add_user(data)
         self.on_save()
         self.destroy()
